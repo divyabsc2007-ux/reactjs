@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import './index.css';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';git
+import ApplyLeave from './components/ApplyLeave';
+import Dashboard from './components/Dashboard';
+import Header from './components/Header';
+import LeaveHistory from './components/LeaveCard';
+import StatCard from './components/StatCard';
+import TabBar from './components/TabBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    <ApplyLeave/>
+    <Dashboard/>
+    <Header/>
+    <LeaveHistory/>
+    <LeaveCard/>
+    <StatCard/>
+    <TabBar/>
+
+
+    
+   
   </React.StrictMode>
 );
 
