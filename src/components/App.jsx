@@ -1,12 +1,12 @@
 // Root component — manages all state, passes props down
 
 import { useState } from "react";
-import Header       from "./components/Header";
-import TabBar       from "./components/TabBar";
-import Dashboard    from "./components/Dashboard";
-import LeaveHistory from "./components/LeaveHistory";
-import ApplyLeave   from "./components/ApplyLeave";
-import { EMPLOYEES, LEAVE_TYPES, INITIAL_LEAVES } from "./constants";
+import Header       from './Header';
+import TabBar       from './TabBar';
+import Dashboard    from './Dashboard';
+import LeaveHistory from './LeaveHistory';
+import ApplyLeave   from './ApplyLeave';
+import { EMPLOYEES, LEAVE_TYPES, INITIAL_LEAVES } from '../constants';
 
 export default function App() {
   const [leaves, setLeaves]               = useState(INITIAL_LEAVES);
@@ -71,4 +71,3 @@ export default function App() {
     </div>
   );
 }
-export default App; 

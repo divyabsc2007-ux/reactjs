@@ -71,4 +71,3 @@ export default function ApplyLeave({
     </div>
   );
 }
-export default ApplyLeave;

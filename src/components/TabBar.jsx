@@ -31,4 +31,3 @@ export default function TabBar({ activeTab, onTabChange }) {
     </div>
   );
 }
-export default TabBar;

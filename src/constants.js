@@ -33,4 +33,4 @@ export const STATUS_BG = {
   Pending:  "#fef9c3",
   Rejected: "#fee2e2",
 };
-export default constants;
+

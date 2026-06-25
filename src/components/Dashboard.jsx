@@ -65,4 +65,4 @@ export default function Dashboard({ leaves, counts }) {
     </div>
   );
 }
-export default Dashboard;
+

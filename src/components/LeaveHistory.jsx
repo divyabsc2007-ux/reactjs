@@ -51,4 +51,4 @@ export default function LeaveHistory({
     </div>
   );
 }
-export default LeaveHistory;
+
